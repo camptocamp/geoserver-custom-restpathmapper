@@ -1,0 +1,7 @@
+services:
+  geoserver:
+    image: docker.osgeo.org/geoserver:2.25.2
+    volumes:
+      - ../../target/gs-geoserver-geodata-pathmapper-2.25.2.jar:/opt/apache-tomcat-9.0.89/webapps/geoserver/WEB-INF/lib/gs-geoserver-geodata-pathmapper-2.25.2.jar
+    ports:
+      - "8080:8080"
