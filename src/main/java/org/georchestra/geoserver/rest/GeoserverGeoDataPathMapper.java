@@ -39,6 +39,6 @@ public class GeoserverGeoDataPathMapper extends RESTUploadPathMapperImpl
 
     @Override
     public int getPriority() {
-        return 0;
+        return -1;
     }
 }
