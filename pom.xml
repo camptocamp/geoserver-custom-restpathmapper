@@ -6,13 +6,13 @@
 
     <groupId>org.georchestra</groupId>
     <artifactId>gs-geoserver-geodata-pathmapper</artifactId>
-    <version>2.28.4</version>
+    <version>2.28.5</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <geoserver.version>2.28.4</geoserver.version>
+        <geoserver.version>2.28.5</geoserver.version>
     </properties>
     <dependencies>
         <dependency>
